@@ -1,2 +1,3 @@
 # math
+Skomorokhova Kate
 homework
