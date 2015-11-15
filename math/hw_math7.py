@@ -1,6 +1,6 @@
 #1
 d = [1, 5, 6, 11, 12]
-f = 55
+f = 7
 
 def find_gene(lst, pos):
     s = 1
