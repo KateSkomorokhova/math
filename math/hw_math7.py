@@ -1,6 +1,6 @@
 #1
-d = [1, 5, 11, 12]
-f = 4
+d = [1, 5, 6, 11, 12]
+f = 55
 
 def find_gene(lst, pos):
     s = 1
@@ -13,6 +13,14 @@ def find_gene(lst, pos):
                 else:
                     print(i)
         s += 1
+    if pos > lst[len(lst)-1]:
+        print(lst[len(lst)-1])
+    elif pos < lst[0]:
+        print(lst[0])
+    elif lst.count(pos) == 1:
+        for i in lst:
+            if i == pos:
+                print(i)
 find_gene(d, f)
 
 #3
